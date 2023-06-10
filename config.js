@@ -1,6 +1,6 @@
 const config = {
-    TOKEN: "xoxc-5305092585425-5294944950932-5332527841443-d0151eb07ebeb54de15d3ff83732426f3b4a569b754bde8b1efc65faa4a46b31",
-    COOKIE: "xoxd-HTeaULw0ovpJv%2Buh9fCzUrc0vUueR9ptQBdPVTtTuBVJ1zXWzV%2B4Do%2BP7C%2Bb3tDvyHjrcZkR2DCwCAoYQTunFNQid3N%2BDy0J88bkgahItFu67QtUp%2BOcmfARLuDZH136kmqgejgRcL8wwL1y5Vq8XDvwFOwGcMnJ5N%2F64bUP%2BwywY1zuuXwBbucP7w%3D%3D",
+    TOKEN: "xoxc-5305092585425-5294944950932-5292458453458-6d75df7f330508c57730c0ea241ba092a83bd2b8756c4d8e6031715c9d4859ba",
+    COOKIE: "xoxd-PvWVyvNzW9updz0Nr0k2wIg5yIlxbDWbFyXnMdPbOV9T0EF4IA6opePZinMzEMklg5UAECip%2BABdp2%2FDosde%2B%2BIEBRQaRBqE3Xxm4XH%2FcANXn4IAaVOBbMvKDNhGIlNqVCPGo9hsUViVV3%2BXvYN3LUfYPkjg6IEH3S9MPOh8R%2BU8q2VU9x0W5Mj%2Bjg%3D%3D",
     TEAM_ID: "w1684501825-rtq663739",
     CHANNEL: "C058DQW8F9C",
     CLAUDE_USER: "U058NU3J4Q4",
@@ -17,7 +17,7 @@ const config = {
     // If there is no @Claude, the ping will automatically get added in front of the message.
     // Can be whatever you want it to be but keep in mind that it might result in unpredictable responses.
     // Anything we put here will eat into our max available tokens so keep it brief.
-    PING_MESSAGE: "Assistant:#后续内容如下",
+    PING_MESSAGE: "#后续内容如下",
 
     PORT: 5004
 }
