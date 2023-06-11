@@ -17,7 +17,7 @@ const config = {
     // If there is no @Claude, the ping will automatically get added in front of the message.
     // Can be whatever you want it to be but keep in mind that it might result in unpredictable responses.
     // Anything we put here will eat into our max available tokens so keep it brief.
-    PING_MESSAGE: "Assistant:",
+    PING_MESSAGE: "[要求细腻描写，不输出无关内容]\n[要求使用中文进行回复，但所有符号使用半角符号\n Assistant:",
 
     PORT: 5004
 }
